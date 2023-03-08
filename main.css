@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+.hero-sideways-scroll-section {
+  position: relative;
+  background-color: #16A34A;
+}
+.hero-sideways-scroll-section .hero__sideways-outer {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero-sideways-scroll-section .hero__sideways-outer .hero__sideways-scroll-inner {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.hero-sideways-scroll-section .hero__sideways-outer .hero__sideways-scroll-inner .slider-item {
+  width: 100vw;
+  height: 100vh;
+  flex: none;
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+.hero-sideways-scroll-section .hero__sideways-outer .hero__sideways-scroll-inner .slider-item h1 {
+  border: 1px solid #743A06;
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+}
+.hero-sideways-scroll-section .hero__sideways-outer .hero__sideways-scroll-inner .slider-item:nth-child(even) {
+  background-color: #FFECDB;
+  color: #743A06;
+}
+.hero-sideways-scroll-section .hero__sideways-outer .hero__sideways-scroll-inner .slider-item:nth-child(odd) {
+  background-color: #FFC796;
+  color: #333;
+}
+
+.section-client-collab-logo-wrapper {
+  width: 100%;
+  height: 100dvh;
+  background-color: #333;
+}/*# sourceMappingURL=main.css.map */
